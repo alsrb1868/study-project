@@ -1,0 +1,57 @@
+.btn-outline-success{
+    color: navy;
+    border-color: navy;
+  }
+  
+  .btn-outline-success:hover{
+    background-color: navy;
+    color: white;
+    border-color: navy;
+  }
+  
+  .nav-item{
+    padding-right: 0.8rem;
+  }
+  
+  
+  footer{
+    background-color: black;
+    color: white;
+    
+  }
+  
+  .frist-line{
+    border-bottom: 1px solid #392d23;
+  }
+  
+  .second-line a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .third-line{
+    display:none;
+  }
+  
+  @media screen and (max-width: 48rem){
+    .frist-line{
+      text-align:center;
+    }
+  }
+  
+  @media screen and (max-width: 48rem){
+    .second-line{
+      padding-left:2rem;
+      padding-right:2rem;
+      border-bottom: 1px solid #392d23;
+    }
+  }
+  
+  @media screen and (max-width: 48rem){
+    .third-line{
+    display:block;
+  }
+  }
+  
+  
+  
